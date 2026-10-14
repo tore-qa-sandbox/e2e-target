@@ -1,0 +1,5 @@
+# Tore risk-class policy for the E2E sandbox. Paths matching a rule are never auto-proposed;
+# everything else (src/price.js included) is non-risk.
+src/auth/**: auth
+src/billing/**: billing
+migrations/**: migration
